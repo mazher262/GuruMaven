@@ -1,0 +1,10 @@
+com\main\extentreport\ExtentReporterNG.class
+com\main\factory\java\TestBase.class
+com\main\pages\reqqo\java\RequestQuotation.class
+com\main\factory\java\BrowserFactory.class
+com\main\utils\java\TestUtil.class
+com\main\pages\java\LoginPage.class
+com\main\pages\reqqo\java\CalculatePremium.class
+com\main\pages\java\GuruHomePage.class
+com\main\utils\pops\PopupsClass.class
+com\main\utils\java\WebEventsListener.class
