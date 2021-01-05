@@ -18,6 +18,8 @@ public class GuruHomePage extends TestBase{
 	@FindBy(xpath="//a[@id='ui-id-2']")
 	WebElement requestQuotation;
 	
+	@FindBy(xpath="//input[@class='btn btn-danger']")
+	WebElement logOut;
 	
 	public GuruHomePage()
 	{
@@ -41,5 +43,9 @@ public class GuruHomePage extends TestBase{
 		requestQuotation.click();
 		return new RequestQuotation();
 		
+	}
+	public void clickLogoutTest()
+	{
+		logOut.click();
 	}
 }
