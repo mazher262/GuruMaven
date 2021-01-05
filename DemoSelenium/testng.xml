@@ -10,7 +10,7 @@
    <classes>
      <class name="com.test.java.LoginPageTestClass"/> 
      <class name="com.test.java.GuruHomePageTest"/>
-     <!-- <class name="com.test.reqquo.java.CalculatePremiumTest"/> -->
+     <class name="com.test.java.GitTest"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
