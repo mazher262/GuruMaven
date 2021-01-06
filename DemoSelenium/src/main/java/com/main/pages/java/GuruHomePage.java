@@ -48,4 +48,9 @@ public class GuruHomePage extends TestBase{
 	{
 		logOut.click();
 	}
+	
+	public SEOClass getSEOClass()
+	{
+		return new SEOClass();
+	}
 }

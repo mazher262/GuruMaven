@@ -1,43 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="70721" started-at="2021-01-04T21:00:09Z" finished-at="2021-01-04T21:01:19Z">
+  <suite started-at="2021-01-05T19:12:51Z" name="Suite" finished-at="2021-01-05T19:14:18Z" duration-ms="87291">
     <groups>
     </groups>
-    <test name="GuruRegressionTest" duration-ms="70721" started-at="2021-01-04T21:00:09Z" finished-at="2021-01-04T21:01:19Z">
+    <test started-at="2021-01-05T19:12:51Z" name="GuruRegressionTest" finished-at="2021-01-05T19:14:18Z" duration-ms="87291">
       <class name="com.test.java.LoginPageTestClass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.java.LoginPageTestClass@13c10b87]" name="setUp" is-config="true" duration-ms="10965" started-at="2021-01-04T21:00:09Z" finished-at="2021-01-04T21:00:20Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.java.LoginPageTestClass@28d18df5]" started-at="2021-01-05T19:12:51Z" name="setUp" finished-at="2021-01-05T19:13:00Z" duration-ms="8932" status="PASS">
         </test-method>
-        <test-method status="PASS" signature="loginPageGuruTitleTest()[pri:1, instance:com.test.java.LoginPageTestClass@13c10b87]" name="loginPageGuruTitleTest" duration-ms="29" started-at="2021-01-04T21:00:20Z" finished-at="2021-01-04T21:00:20Z">
+        <test-method signature="loginPageGuruTitleTest()[pri:1, instance:com.test.java.LoginPageTestClass@28d18df5]" started-at="2021-01-05T19:13:00Z" name="loginPageGuruTitleTest" finished-at="2021-01-05T19:13:00Z" duration-ms="31" status="PASS">
         </test-method>
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.java.LoginPageTestClass@13c10b87]" name="tearDown" is-config="true" duration-ms="1270" started-at="2021-01-04T21:00:20Z" finished-at="2021-01-04T21:00:21Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.java.LoginPageTestClass@28d18df5]" started-at="2021-01-05T19:13:00Z" name="tearDown" finished-at="2021-01-05T19:13:01Z" duration-ms="1295" status="PASS">
         </test-method>
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.java.LoginPageTestClass@13c10b87]" name="setUp" is-config="true" duration-ms="9293" started-at="2021-01-04T21:00:21Z" finished-at="2021-01-04T21:00:30Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.java.LoginPageTestClass@28d18df5]" started-at="2021-01-05T19:13:01Z" name="setUp" finished-at="2021-01-05T19:13:09Z" duration-ms="8559" status="PASS">
         </test-method>
-        <test-method status="PASS" signature="loginPageGuruLogoTest()[pri:2, instance:com.test.java.LoginPageTestClass@13c10b87]" name="loginPageGuruLogoTest" duration-ms="114" started-at="2021-01-04T21:00:30Z" finished-at="2021-01-04T21:00:30Z">
+        <test-method signature="loginPageGuruLogoTest()[pri:2, instance:com.test.java.LoginPageTestClass@28d18df5]" started-at="2021-01-05T19:13:09Z" name="loginPageGuruLogoTest" finished-at="2021-01-05T19:13:09Z" duration-ms="76" status="PASS">
         </test-method>
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.java.LoginPageTestClass@13c10b87]" name="tearDown" is-config="true" duration-ms="1317" started-at="2021-01-04T21:00:30Z" finished-at="2021-01-04T21:00:32Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.java.LoginPageTestClass@28d18df5]" started-at="2021-01-05T19:13:09Z" name="tearDown" finished-at="2021-01-05T19:13:11Z" duration-ms="1204" status="PASS">
         </test-method>
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.java.LoginPageTestClass@13c10b87]" name="setUp" is-config="true" duration-ms="8353" started-at="2021-01-04T21:00:32Z" finished-at="2021-01-04T21:00:40Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.java.LoginPageTestClass@28d18df5]" started-at="2021-01-05T19:13:11Z" name="setUp" finished-at="2021-01-05T19:13:19Z" duration-ms="8203" status="PASS">
         </test-method>
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.test.java.LoginPageTestClass@13c10b87]" name="loginTest" duration-ms="5514" started-at="2021-01-04T21:00:40Z" finished-at="2021-01-04T21:00:46Z">
+        <test-method signature="loginTest()[pri:3, instance:com.test.java.LoginPageTestClass@28d18df5]" started-at="2021-01-05T19:13:19Z" name="loginTest" finished-at="2021-01-05T19:13:25Z" duration-ms="5906" status="PASS">
         </test-method>
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.java.LoginPageTestClass@13c10b87]" name="tearDown" is-config="true" duration-ms="1261" started-at="2021-01-04T21:00:46Z" finished-at="2021-01-04T21:00:47Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.java.LoginPageTestClass@28d18df5]" started-at="2021-01-05T19:13:25Z" name="tearDown" finished-at="2021-01-05T19:13:26Z" duration-ms="1279" status="PASS">
+        </test-method>
+      </class>
+      <class name="com.test.java.GitTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.java.GitTest@4032d386]" started-at="2021-01-05T19:14:01Z" name="setUp" finished-at="2021-01-05T19:14:15Z" duration-ms="13444" status="PASS">
+        </test-method>
+        <test-method signature="guruLogOut()[pri:0, instance:com.test.java.GitTest@4032d386]" started-at="2021-01-05T19:14:15Z" name="guruLogOut" finished-at="2021-01-05T19:14:17Z" duration-ms="1981" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.java.GitTest@4032d386]" started-at="2021-01-05T19:14:17Z" name="tearDown" finished-at="2021-01-05T19:14:18Z" duration-ms="1364" status="PASS">
         </test-method>
       </class>
       <class name="com.test.java.GuruHomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.java.GuruHomePageTest@22635ba0]" name="setUp" is-config="true" duration-ms="13952" started-at="2021-01-04T21:00:47Z" finished-at="2021-01-04T21:01:01Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.java.GuruHomePageTest@1d483de4]" started-at="2021-01-05T19:13:26Z" name="setUp" finished-at="2021-01-05T19:13:44Z" duration-ms="17913" status="PASS">
         </test-method>
-        <test-method status="PASS" signature="getTitleOfHomePage()[pri:1, instance:com.test.java.GuruHomePageTest@22635ba0]" name="getTitleOfHomePage" duration-ms="41" started-at="2021-01-04T21:01:01Z" finished-at="2021-01-04T21:01:01Z">
+        <test-method signature="getTitleOfHomePage()[pri:1, instance:com.test.java.GuruHomePageTest@1d483de4]" started-at="2021-01-05T19:13:44Z" name="getTitleOfHomePage" finished-at="2021-01-05T19:13:44Z" duration-ms="10" status="PASS">
         </test-method>
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.java.GuruHomePageTest@22635ba0]" name="tearDown" is-config="true" duration-ms="1193" started-at="2021-01-04T21:01:01Z" finished-at="2021-01-04T21:01:02Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.java.GuruHomePageTest@1d483de4]" started-at="2021-01-05T19:13:44Z" name="tearDown" finished-at="2021-01-05T19:13:45Z" duration-ms="1326" status="PASS">
         </test-method>
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.java.GuruHomePageTest@22635ba0]" name="setUp" is-config="true" duration-ms="15860" started-at="2021-01-04T21:01:02Z" finished-at="2021-01-04T21:01:18Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.java.GuruHomePageTest@1d483de4]" started-at="2021-01-05T19:13:45Z" name="setUp" finished-at="2021-01-05T19:13:59Z" duration-ms="14148" status="PASS">
         </test-method>
-        <test-method status="PASS" signature="clickRequestQuotation()[pri:2, instance:com.test.java.GuruHomePageTest@22635ba0]" name="clickRequestQuotation" duration-ms="347" started-at="2021-01-04T21:01:18Z" finished-at="2021-01-04T21:01:18Z">
+        <test-method signature="clickRequestQuotation()[pri:2, instance:com.test.java.GuruHomePageTest@1d483de4]" started-at="2021-01-05T19:13:59Z" name="clickRequestQuotation" finished-at="2021-01-05T19:14:00Z" duration-ms="310" status="PASS">
         </test-method>
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.java.GuruHomePageTest@22635ba0]" name="tearDown" is-config="true" duration-ms="1191" started-at="2021-01-04T21:01:18Z" finished-at="2021-01-04T21:01:19Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.java.GuruHomePageTest@1d483de4]" started-at="2021-01-05T19:14:00Z" name="tearDown" finished-at="2021-01-05T19:14:01Z" duration-ms="1286" status="PASS">
         </test-method>
       </class>
     </test>
