@@ -28,7 +28,7 @@ public class SEOClass extends TestBase {
 	{
 		wait = new WebDriverWait(driver, 30);
 		wait.until(ExpectedConditions.visibilityOf(SeoMenu)); 
-		wait.until(ExpectedConditions.elementToBeClickable(SeoMenu));
+		//wait.until(ExpectedConditions.elementToBeClickable(SeoMenu));
 		SeoMenu.click();
 	}
 }
