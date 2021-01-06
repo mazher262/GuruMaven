@@ -35,7 +35,7 @@ public void tearDown()
 
 	
 	@Test
-  public void guruLogOut() {
+  public void guruLogOut() throws Throwable {
 		guruHomePage.clickLogoutTest();
 		Thread.sleep(1000);
   }
