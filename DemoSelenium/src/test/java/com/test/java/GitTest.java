@@ -37,5 +37,6 @@ public void tearDown()
 	@Test
   public void guruLogOut() {
 		guruHomePage.clickLogoutTest();
+		Thread.sleep(1000);
   }
 }
