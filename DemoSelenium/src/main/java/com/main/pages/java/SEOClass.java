@@ -1,5 +1,6 @@
 package com.main.pages.java;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -27,7 +28,7 @@ public class SEOClass extends TestBase {
 	public void seoMenuClick()
 	{
 		wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.visibilityOf(SeoMenu)); 
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"navbar-brand-centered\"]/ul/li[1]/ul/li[2]/a")));
 		//wait.until(ExpectedConditions.elementToBeClickable(SeoMenu));
 		SeoMenu.click();
 	}
