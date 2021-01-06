@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jan 05 22:20:35 IST 2021</td>
+<td>Started on:</td><td>Wed Jan 06 17:53:39 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>66 seconds (66809 ms)</td>
+<tr><td>Total time:</td><td>66 seconds (66183 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,10 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.test.java.SEOTestClass.seoClassClickTest()'><b>seoClassClickTest</b><br>Test class: com.test.java.SEOTestClass</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a.dropdown-togglert&quot;}
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;dropdown-toggle&apos; and @data-toggle=&apos;dropdown&apos; and @aria-expanded=&apos;false&apos;]&quot;}
   (Session info: chrome=87.0.4280.88)
   (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 50.03 seconds
+Command duration or timeout: 50.08 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.17.0&apos;, revision: &apos;15546&apos;, time: &apos;2012-01-16 17:11:34&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
@@ -93,13 +93,13 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:113)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:439)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:226)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:291)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:299)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:218)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
 	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at com.main.pages.java.SEOClass.seoMenuClick(SEOClass.java:21)
+	at com.main.pages.java.SEOClass.seoMenuClick(SEOClass.java:22)
 	at com.test.java.SEOTestClass.seoClassClickTest(SEOTestClass.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -129,11 +129,11 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1829460911", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1829460911'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a.dropdown-togglert&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace1541433310", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1541433310'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;dropdown-toggle&apos; and @data-toggle=&apos;dropdown&apos; and @aria-expanded=&apos;false&apos;]&quot;}
   (Session info: chrome=87.0.4280.88)
   (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 50.03 seconds
+Command duration or timeout: 50.08 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.17.0&apos;, revision: &apos;15546&apos;, time: &apos;2012-01-16 17:11:34&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
@@ -147,13 +147,13 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:113)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:439)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:226)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:291)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:299)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:218)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
 	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at com.main.pages.java.SEOClass.seoMenuClick(SEOClass.java:21)
+	at com.main.pages.java.SEOClass.seoMenuClick(SEOClass.java:22)
 	at com.test.java.SEOTestClass.seoClassClickTest(SEOTestClass.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -184,7 +184,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>51</td>
+<td>50</td>
 <td>com.test.java.SEOTestClass@298a5e20</td></tr>
 </table><p>
 </body>
