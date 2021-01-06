@@ -10,7 +10,8 @@ public class SEOClass extends TestBase {
 
 	//@FindBy(css = "a.dropdown-toggle")
 	//@FindBy(xpath = "//a[@class='dropdown-toggle' and @data-toggle='dropdown' and @aria-expanded='false']")
-	@FindBy(xpath="//ul[@class='dropdown-menu'] ")
+	@FindBy(xpath="//a[@class='dropdown-toggle' and @data-toggle='dropdown' and @aria-expanded='true']")
+	//@FindBy(xpath="//ul[@class='dropdown-menu'] ")
 	WebElement SeoMenu;
 	
 	public SEOClass()
