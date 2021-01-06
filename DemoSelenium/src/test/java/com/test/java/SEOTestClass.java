@@ -39,7 +39,7 @@ public void tearDown()
 	@Test
   public void seoClassClickTest() throws Throwable {
 		
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		seoClass.seoMenuClick();
 		Thread.sleep(1000);
   }
