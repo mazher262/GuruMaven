@@ -16,7 +16,7 @@ public class SEOClass extends TestBase {
 	//@FindBy(xpath = "//a[@class='dropdown-toggle' and @data-toggle='dropdown' and @aria-expanded='false']")
 	//@FindBy(xpath="//a[@class='dropdown-toggle' and @data-toggle='dropdown' and @aria-expanded='true']")
 	//@FindBy(xpath="//li[@class='dropdown open'] ")
-	@FindBy(xpath="//*[@id=\"navbar-brand-centered\"]/ul/li[1]/ul/li[2]/a")
+	@FindBy(xpath="/html/body/div[1]/div[2]/nav/div/div/ul/li[1]/ul/li[1]/a")
 	WebElement SeoMenu;
 	
 	
@@ -28,7 +28,7 @@ public class SEOClass extends TestBase {
 	public void seoMenuClick()
 	{
 		wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"navbar-brand-centered\"]/ul/li[1]/ul/li[2]/a")));
+		wait.until(ExpectedConditions.visibilityOf(SeoMenu));
 		//wait.until(ExpectedConditions.elementToBeClickable(SeoMenu));
 		SeoMenu.click();
 	}
