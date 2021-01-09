@@ -21,6 +21,8 @@ public class SEOClass extends TestBase {
 	WebElement SeoMenu;
 	@FindBy(xpath="//b[@class='caret']")
 	WebElement caret;
+	@FindBy(xpath="//a[@aria-expanded='false']")
+	WebElement SeoMenu1;
 	
 	
 	public SEOClass()
@@ -34,7 +36,7 @@ public class SEOClass extends TestBase {
 		//wait.until(ExpectedConditions.visibilityOf(SeoMenu));
 		//wait.until(ExpectedConditions.elementToBeClickable(SeoMenu));
 		//Thread.sleep(1000);
-		caret.click();
+		SeoMenu1.click();
 		Thread.sleep(500);
 		SeoMenu.click();
 		Thread.sleep(1000);
