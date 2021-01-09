@@ -19,6 +19,8 @@ public class SEOClass extends TestBase {
 	//@FindBy(xpath="/html/body/div[1]/div[2]/nav/div/div/ul/li[1]/ul/li[1]/a")
 	@FindBy(xpath="//a[contains(text(),'Flash Movie Demo')]")
 	WebElement SeoMenu;
+	@FindBy(xpath="//b[@class='caret']")
+	WebElement caret;
 	
 	
 	public SEOClass()
@@ -31,7 +33,9 @@ public class SEOClass extends TestBase {
 		//wait = new WebDriverWait(driver, 30);
 		//wait.until(ExpectedConditions.visibilityOf(SeoMenu));
 		//wait.until(ExpectedConditions.elementToBeClickable(SeoMenu));
-		Thread.sleep(1000);
+		//Thread.sleep(1000);
+		caret.click();
+		Thread.sleep(500);
 		SeoMenu.click();
 		Thread.sleep(1000);
 	}
