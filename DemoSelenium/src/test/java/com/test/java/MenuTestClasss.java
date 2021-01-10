@@ -19,9 +19,13 @@ public class MenuTestClasss {
 		//WebElement menu = driver.findElement(By.xpath(xpathExpression));
 	}
 	@Test
-  public void MenuTestDemo() {
+  public void MenuTestDemo() throws Throwable {
 	  Actions actions = new Actions(driver);
-		WebElement mainMenu = driver.findElement(By.xpath("//span[contains(text()='Testing')]"));
+	 
+		WebElement mainMenu = driver.findElement(By.xpath("/html/body/div[2]/section[2]/div/div/div[2]/div/nav/ul/li[2]/div/span[1]/span"));
+		Thread.sleep(500);
+		//*[@id="menu-3688-particle"]/nav/ul/li[2]/div/span[1]
+		
 		//WebElement mainMenu = driver.findElement(By.cssSelector(//span[contains(text()='Testing')"));
 		actions.moveToElement(mainMenu);
 
