@@ -21,7 +21,7 @@ public class MenuTestClasss {
 	@Test
   public void MenuTestDemo() {
 	  Actions actions = new Actions(driver);
-		WebElement mainMenu = driver.findElement(By.xpath("//span[contains(text()='Testing']"));
+		WebElement mainMenu = driver.findElement(By.xpath("//span[contains(text()='Testing')]"));
 		//WebElement mainMenu = driver.findElement(By.cssSelector(//span[contains(text()='Testing')"));
 		actions.moveToElement(mainMenu);
 
