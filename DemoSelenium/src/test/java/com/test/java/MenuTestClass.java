@@ -21,7 +21,7 @@ public class MenuTestClass extends TestBase{
 	
 	public MenuTestClass()
 	{
-		super();
+		//super();
 	}	
 	
 @BeforeMethod (alwaysRun = true)
