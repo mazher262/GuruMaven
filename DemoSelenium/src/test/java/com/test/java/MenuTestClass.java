@@ -34,6 +34,7 @@ public void setUp()
 	
 	Actions actions = new Actions(driver);
 	WebElement mainMenu = driver.findElement(By.xpath("//span[contains(text()='Testing')"));
+	//WebElement mainMenu = driver.findElement(By.cssSelector(//span[contains(text()='Testing')"));
 	actions.moveToElement(mainMenu);
 
 	WebElement subMenu = driver.findElement(By.xpath("//span[contains(text()='LoadRunner')"));
