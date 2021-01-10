@@ -17,7 +17,8 @@ public class SEOClass extends TestBase {
 	//@FindBy(xpath="//a[@class='dropdown-toggle' and @data-toggle='dropdown' and @aria-expanded='true']")
 	//@FindBy(xpath="//li[@class='dropdown open'] ")
 	//@FindBy(xpath="/html/body/div[1]/div[2]/nav/div/div/ul/li[1]/ul/li[1]/a")
-	@FindBy(xpath="//a[contains(text(),'Flash Movie Demo')]")
+	//@FindBy(xpath="//a[contains(text(),'Flash Movie Demo')]")
+	@FindBy(xpath="//a[contains(text(),'Tooltip')]")
 	WebElement SeoMenu;
 	@FindBy(xpath="//b[@class='caret']")
 	WebElement caret;
@@ -36,7 +37,7 @@ public class SEOClass extends TestBase {
 		//wait.until(ExpectedConditions.visibilityOf(SeoMenu));
 		//wait.until(ExpectedConditions.elementToBeClickable(SeoMenu));
 		//Thread.sleep(1000);
-		SeoMenu1.click();
+		caret.click();
 		Thread.sleep(500);
 		SeoMenu.click();
 		Thread.sleep(1000);
