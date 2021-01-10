@@ -33,7 +33,7 @@ public void setUp()
 @AfterMethod
 public void tearDown()
 {
-	driver.quit();
+//	driver.quit();
 }
 	
 	@Test
