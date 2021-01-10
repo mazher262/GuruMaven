@@ -29,7 +29,7 @@ public class MenuTestClasss {
 		//WebElement mainMenu = driver.findElement(By.cssSelector(//span[contains(text()='Testing')"));
 		actions.moveToElement(mainMenu);
 		System.out.println("reached here");
-		WebElement subMenu = driver.findElement(By.xpath("//span[contains(text()='LoadRunner')"));
+		WebElement subMenu = driver.findElement(By.xpath("/html/body/div[2]/section[2]/div/div/div[2]/div/nav/ul/li[2]/ul/li/div/div[3]/ul/li[4]/a/span/span"));
 		actions.moveToElement(subMenu);
 		actions.click().build().perform();
   }
