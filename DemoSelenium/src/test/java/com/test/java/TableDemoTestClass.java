@@ -1,5 +1,7 @@
 package com.test.java;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.main.factory.java.TestBase;
@@ -18,11 +20,18 @@ public class TableDemoTestClass extends TestBase{
 		super();
 	}
 	
+	@BeforeMethod (alwaysRun = true)
 	public void setUp()
 	{
 		initialization();
 		loginpt=new LoginPage();
 		guruHomePage = loginpt.login(prop.getProperty("username"), prop.getProperty("password"));
+	}
+	
+	@AfterMethod
+	public void tearDown()
+	{
+		driver.quit();
 	}
 	
 	@Test
