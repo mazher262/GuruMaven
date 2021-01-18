@@ -11,7 +11,7 @@ public class TableDemoClass extends TestBase {
 	@FindBy(xpath="//a[contains(text(), 'Table Demo')]")
 	WebElement tableDemo;
 	
-	@FindBy(xpath="//a[@aria-expanded='false']")
+	@FindBy(xpath="//a[@aria-expanded='true']")
 	WebElement selenium;
 	
 	public TableDemoClass()
