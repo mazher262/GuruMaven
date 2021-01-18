@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.java.SEOTestClass">
+      <class name="com.test.java.MenuTestClasss">
         <methods>
-          <include name="seoClassClickTest"/>
-          <include name="tearDown"/>
+          <include name="MenuTestDemo"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.test.java.SEOTestClass -->
+      </class> <!-- com.test.java.MenuTestClasss -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
