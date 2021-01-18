@@ -29,5 +29,6 @@ public class TableDemoTestClass extends TestBase{
   public void TableDemoClick() {
 		TableDemoClass tdc = new TableDemoClass();
 		tdc.clickTableDemo();
+		
   }
 }
