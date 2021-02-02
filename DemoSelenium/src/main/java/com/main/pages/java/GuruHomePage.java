@@ -1,6 +1,8 @@
 package com.main.pages.java;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import com.main.pages.reqqo.java.RequestQuotation;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
