@@ -17,6 +17,7 @@ public class TableDemoClass extends TestBase {
 	public TableDemoClass()
 	{
 		PageFactory.initElements(driver, this);
+		
 	}
 	
 	public void clickTableDemo()
