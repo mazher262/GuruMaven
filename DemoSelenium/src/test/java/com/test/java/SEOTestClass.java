@@ -41,6 +41,7 @@ public void tearDown()
 		
 		//Thread.sleep(2000);
 		seoClass.seoMenuClick();
+		
 		Thread.sleep(1000);
   }
 }
