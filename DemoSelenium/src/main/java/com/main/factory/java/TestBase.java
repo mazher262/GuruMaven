@@ -14,6 +14,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.main.utils.java.TestUtil;
@@ -61,7 +62,7 @@ public class TestBase {
 		}else if(browserName.equals("FireFox"))
 		{
 			System.setProperty("webdriver.gecko.driver", "D:\\htmlunit-driver-2.45.0\\geckodriver.exe");
-			driver = new ChromeDriver();
+			driver = new FirefoxDriver();
 		
 		}
 		//Alert alert = driver.switchTo().alert();
