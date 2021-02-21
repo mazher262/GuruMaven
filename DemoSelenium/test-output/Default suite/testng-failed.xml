@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.java.MenuTestClasss">
+      <class name="com.test.java.LoginPageTestClass">
         <methods>
-          <include name="MenuTestDemo"/>
+          <include name="loginPageGuruTitleTest"/>
+          <include name="loginPageGuruLogoTest"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.test.java.MenuTestClasss -->
+      </class> <!-- com.test.java.LoginPageTestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
