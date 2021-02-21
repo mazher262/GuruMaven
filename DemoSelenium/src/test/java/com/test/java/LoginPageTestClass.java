@@ -39,7 +39,7 @@ public void tearDown()
 
 
 @Test (enabled = true, priority=1)
-public void loginPageGuruTitleTest()
+public void loginPageGuruTitleTest() throws Exception
 {
 	String guruTitle = loginpt.validateLoginPageTitle();
 	log.info("Called Validata Login Page Title method..");

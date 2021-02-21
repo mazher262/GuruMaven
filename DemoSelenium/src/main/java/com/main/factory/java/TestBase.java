@@ -2,6 +2,7 @@ package com.main.factory.java;
 
 
 import java.io.File;
+import org.openqa.selenium.chrome.ChromeOptions;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -57,12 +58,16 @@ public class TestBase {
 		{
 
 			System.setProperty("webdriver.chrome.driver", "D:\\htmlunit-driver-2.45.0\\chromedriver.exe");
+			ChromeOptions chromeOptions = new ChromeOptions();
+	        //chromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 			driver = new ChromeDriver();
+			
 			
 		}else if(browserName.equals("FireFox"))
 		{
 			System.setProperty("webdriver.gecko.driver", "D:\\htmlunit-driver-2.45.0\\geckodriver.exe");
 			driver = new FirefoxDriver();
+			//driver.fi
 		
 		}
 		//Alert alert = driver.switchTo().alert();
